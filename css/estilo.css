@@ -5,9 +5,15 @@
 }
 
 /* Estilo para el cuerpo del documento */
-body{
-    background: #62db73; /* Color de fondo */
+body {
+    background: url('../img/fondo.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
+
 
 /* Estilo para los encabezados h1, h2 y los párrafos p */
 h1, h2, p {
@@ -45,8 +51,8 @@ h1, h2, p {
 /* Estilo para los elementos header, .main y footer */
 header, .main, footer{
     font-family: 'Nunito Sans', sans-serif; /* Fuente */
-    width: 150%; /* Ancho */
-    max-width: 1800px; /* Ancho máximo */
+    width: 130%; /* Ancho */
+    max-width: 1850px; /* Ancho máximo */
     margin: 20px auto; /* Márgenes */
 }
 
@@ -78,7 +84,7 @@ header nav ul li a{
 
 /* Estilo para los enlaces a dentro de los elementos de lista li de la navegación del header al pasar el mouse */
 header nav ul li a:hover{
-    background: #9c9c9c; /* Color de fondo */
+    background: #7fce67; /* Color de fondo */
 }
 
 /* Estilo para los artículos dentro de .articles en .main */
