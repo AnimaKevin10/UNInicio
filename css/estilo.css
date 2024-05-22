@@ -155,3 +155,12 @@ footer h2{
 .main .articles article h2 {
     text-align: center;
 }
+.logotipo {
+    width: 300px; /* Ancho fijo para el contenedor del logotipo */
+    margin: auto; /* Centra el contenedor del logotipo horizontalmente */
+}
+
+.logotipo img {
+    display: block; /* Hace que la imagen se comporte como un bloque */
+    margin: auto; /* Centra la imagen dentro del contenedor .logotipo */
+}
