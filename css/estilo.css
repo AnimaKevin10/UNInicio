@@ -17,7 +17,11 @@ body {
 
 /* Estilo para los encabezados h1, h2 y los párrafos p */
 h1, h2, p {
-    font-family: 'Nunito Sans', sans-serif; /* Fuente */
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+    font-variation-settings: "GRAD" 0;
 }
 
 /* Estilo para los elementos de lista li dentro del elemento con id var1 */
@@ -58,8 +62,13 @@ header, .main, footer{
 
 /* Estilo para la navegación dentro del header */
 header nav{
-    background: #af1146; /* Color de fondo */
+    background: #df3459; /* Color de fondo */
     overflow: hidden; /* Ocultar el contenido que se desborde */
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    font-variation-settings: "GRAD" 0;
 }
 
 /* Estilo para la lista sin orden dentro de la navegación del header */
